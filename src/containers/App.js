@@ -7,7 +7,7 @@ import ErrorBound from "../Components/ErrorBound";
 
 // import { render } from "react-dom";
 // import { robots } from "./robots";
-
+// https://deepak-devrhwal.github.io/Robot-Friends/
 class App extends React.Component {
   constructor() {
     super();
@@ -17,7 +17,7 @@ class App extends React.Component {
     };
   }
   componentDidMount() {
-    fetch("http://jsonplaceholder.typicode.com/users")
+    fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => {
         return response.json();
       })
